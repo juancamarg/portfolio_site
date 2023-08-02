@@ -68,15 +68,17 @@ header h3{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
 
 }
-.experience .images{
-    padding: 1%;
+#images-1 , #images-2 ,#images-3 , #images-4{
     background-color: rgba(188, 234, 219, 0.237);
+    width: 400px;
+    height: 300px;
+    margin-bottom: 1%;
+
 
 }
-.experience img{
+.experience .img{
     width: 300px;
     height: 200px;
     border-radius: 700px ;
@@ -91,6 +93,11 @@ header h3{
 .skills{
     grid-area: 1 / 1 /span 1/span 1 ;
     margin-left: 5%;
+}
+.info-p{
+    visibility: hidden;
+    transition: 1s;
+
 }
 
 
