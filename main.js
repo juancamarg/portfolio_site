@@ -16,11 +16,10 @@ function change_size(element){
     ima[0].style.borderRadius= '0px';
     //document.body.style.backgroundColor='black';
     element.style.transition='6s';
-    element.style.marginLeft= '50px';
+    //element.style.marginLeft= '50px';
     info[0].style.visibility='visible';
-    info[0].style.transition='3s';
+    info[0].style.transition='30s';
     element.style.zIndex = '5';
-    
 
 }
 function return_size(element){
@@ -37,7 +36,7 @@ function return_size(element){
     element.style.marginLeft= '0%';
     ima[0].style.borderRadius= '700px';
     info[0].style.visibility='hidden';
-    info[0].style.transition='1s';
+    info[0].style.transition='0s';
     element.style.zIndex = '1';
 }
 

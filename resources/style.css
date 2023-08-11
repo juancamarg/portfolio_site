@@ -94,9 +94,52 @@ header h3{
     grid-area: 1 / 1 /span 1/span 1 ;
     margin-left: 5%;
 }
+.contact{
+    font-size: medium;
+}
 .info-p{
     visibility: hidden;
     transition: 1s;
+
+}
+@media (max-width: 1200px){
+    header h3{
+        display: none;
+        z-index: 0;
+    }
+    header{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 80%;
+    }
+    nav{
+        z-index: 2;
+        
+    }
+    header li a{
+        border: 3px dotted cadetblue;
+    }
+    #about{
+        display: block;
+        margin: 9%;
+    }
+    .personal{
+        margin: 0px;
+    }
+    #info{
+        padding-left: 0%;
+    }
+    .personal img{
+        width: 100px;
+        height: 100px;
+    }
+    .personal h3{
+        text-align: center;
+        width: auto;
+    }
+    #info p{
+        text-align: justify;
+    }    
 
 }
 
